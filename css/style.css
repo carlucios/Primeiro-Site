@@ -6,12 +6,20 @@ body {
 }
 
 .photo {
-	border: 1px solid #505050;
+	border: 3px solid #505050;
 	border-radius: 50%;
 }
 
 #title, .subtitle, .post_title {
 	color: #505050;
+}
+
+#title {
+	padding: 15px;
+}
+
+.subtitle {
+	padding: 15px;
 }
 
 a {
@@ -45,11 +53,10 @@ a {
 	width: 100%;
 }
 
-.contacts_list {
+#contacts_list ul {
 	list-style-type: none;
-	padding-left: 15px;
 }
 
-.contacts_list li a {
+#contacts_list ul li a {
 	text-decoration: none;
 }
